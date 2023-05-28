@@ -8,9 +8,30 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'my-bg-image' : "url('./images/test3.jpg')",
+      },
+      transitionTimingFunction: {
+        DEFAULT: 'easy-in-out',
+      },
+      transitionDuration: {
+        DEFAULT: '400ms',
+      },
+      keyframes: {
+        fadeIn: {
+          from: {
+            opacity: 0,
+          },
+          to: {
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        fade: 'fadeIn .5s ease-in-out',
+      },
+      zIndex: {
+        1: '1',
+        2: '2',
       },
     },
   },
