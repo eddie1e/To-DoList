@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# To-DoList
 
-## Getting Started
+This is a simple web-based to-do list application built using Next.js 13 and Tailwind CSS. The application allows you to create and delete tasks(page "done" unfortunately not working).
 
-First, run the development server:
+![To-DoList Screenshot](../todo-list/src/app/images/screenshot.jpg)
+
+## Live Demo
+
+- [To-DoList Demo](https://to-do-list-eddie1e.vercel.app/)
+
+## Features
+
+- Create new tasks 
+- Delete tasks
+- Responsive design for seamless usage on different devices
+
+## Installation
+
+1. Clone this repository to your local machine using the following command:
+
+```bask
+git clone https://github.com/eddie1e/To-DoList.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd To-DoList
+```
+
+3. Install the dependencies by running the following command:
+
+```bash
+npm install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your preferred web browser and visit `http://localhost:3000` to access the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The To-Do List application provides an intuitive interface to manage your tasks efficiently. Here's how you can use it:
 
-## Learn More
+1. Creating a task: To create a new task, enter a title in the input field at the top of the page and press Enter or click the "+" button.
 
-To learn more about Next.js, take a look at the following resources:
+2. Deleting a task: To delete a task, click the "Delete" button next to the task.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Searching for a task: You can search for a specific task by typing keywords in the search field. The application will dynamically filter the tasks based on your search query, displaying only the tasks that match the entered keywords.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Selecting and deleting tasks: You have additional options for managing your tasks. You can select all tasks by clicking the "Select All" button, and deselect all tasks by clicking the "Unselect All" button. To delete the selected tasks, click the "Delete Selected" button.
