@@ -2,7 +2,7 @@
 
 This is a simple web-based to-do list application built using Next.js 13 and Tailwind CSS. The application allows you to create and delete tasks(page "done" unfortunately not working).
 
-![To-DoList Screenshot](../todo-list/src/app/images/screenshot.jpg)
+![To-DoList Screenshot](src/app/images/screenshot.jpg)
 
 ## Live Demo
 
